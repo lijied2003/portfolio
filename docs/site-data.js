@@ -697,8 +697,8 @@ window.SITE_DATA = {
         "zh": "从会议记录，到可审核、可追踪的行动。",
         "en": "From meeting notes to reviewable, trackable action."
       },
-      "url": "https://tiny-block-bd02.daolinh6779.workers.dev/",
-      "portfolioUrl": "https://tiny-block-bd02.daolinh6779.workers.dev/",
+      "url": "https://lijied2003.github.io/meetflow/",
+      "portfolioUrl": "https://lijied2003.github.io/meetflow/",
       "image": "assets/images/meetflow-workspace.webp",
       "imageAlt": {
         "zh": "MeetFlow AI 原版会议工作台实拍，包含项目原有演示转录",
@@ -807,7 +807,7 @@ window.SITE_DATA = {
         "zh": "让设备故障咨询，有据可查。",
         "en": "Ground equipment troubleshooting in source knowledge."
       },
-      "url": "https://src-assistant-portfolio.daolinh6779.workers.dev/",
+      "url": "https://lijied2003.github.io/src-assistant-portfolio/",
       "image": "assets/images/src-assistant.png",
       "imageAlt": {
         "zh": "SRC Assistant 真实 Dify 聊天首页，展示欢迎语、知识范围和输入框",

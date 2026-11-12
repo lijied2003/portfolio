@@ -17,7 +17,7 @@
   const external = (url, label, className = '') => safeUrl(url) ? `<a class="${className}" href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">${label}</a>` : ``;
   function resume(className = 'button secondary') {
     const url = data.profile.resumePublicApproved ? safeUrl(data.profile.resume) : "";
-    return url ? `<a class="${className}" href="${url}" download>${ui('resume')} <span aria-hidden="true">↓</span></a>` : "";
+    return url ? `<a class="${className}" href="${url}" target="_blank" rel="noopener noreferrer">${ui('resume')} <span aria-hidden="true">↓</span></a>` : "";
   }
   const tagList = tags => `<div class="tags">${tags.map(tag=>`<span>${text(tag)}</span>`).join('')}</div>`;
   const renderList = items => `<ul class="list">${items.map(item=>`<li><strong>${text(item.label)}${language==='zh'?'：':': '}</strong><span>${text(item.description)}</span></li>`).join('')}</ul>`;

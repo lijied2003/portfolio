@@ -32,8 +32,8 @@ window.SITE_DATA = {
       "Product Design",
       "Model Evaluation"
     ],
-    "resume": "",
-    "resumePublicApproved": false,
+    "resume": "assets/documents/resume-public.pdf",
+    "resumePublicApproved": true,
     "email": "ljied2025@126.com",
     "github": "",
     "portrait": "assets/images/li-jie.jpg",
